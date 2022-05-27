@@ -12,6 +12,12 @@ body {
   padding: 5px;
   gap: 10px;
 }
+.a {
+  background-color: red;
+}
+.c {
+  background-color: green;
+}
 .a, .c {
   flex-grow: 1;
   border: 2px solid black;
@@ -21,6 +27,7 @@ body {
   border: 2px solid black;
   min-height: 40vh;
   min-width: 100%;
+  background-color: blue;
 }
 @media (min-width: 600px) {
   .container {
